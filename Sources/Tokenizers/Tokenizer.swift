@@ -66,6 +66,7 @@ struct TokenizerModel {
         "GemmaTokenizer"     : GemmaTokenizer.self,
         "GPT2Tokenizer"      : GPT2Tokenizer.self,
         "LlamaTokenizer"     : LlamaTokenizer.self,
+        "Qwen2Tokenizer"     : Qwen2Tokenizer.self,
         "T5Tokenizer"        : T5Tokenizer.self,
         "WhisperTokenizer"   : WhisperTokenizer.self,
         "CohereTokenizer"    : CohereTokenizer.self,
@@ -318,6 +319,7 @@ extension AutoTokenizer {
 class GPT2Tokenizer     : BPETokenizer {}
 class FalconTokenizer   : BPETokenizer {}
 class LlamaTokenizer    : BPETokenizer {}
+class Qwen2Tokenizer    : BPETokenizer {}
 class CodeGenTokenizer  : BPETokenizer {}
 class WhisperTokenizer  : BPETokenizer {}
 class GemmaTokenizer    : BPETokenizer {}
